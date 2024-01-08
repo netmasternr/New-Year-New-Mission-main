@@ -1,17 +1,21 @@
  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Merriweather+Sans:wght@300&display=swap');
 
- font-family: 'Inter', sans-serif;
-font-family: 'Merriweather Sans', sans-serif;
+ font-family: 'Inter',
+ sans-serif;
 
- *{
+ font-family: 'Merriweather Sans',
+ sans-serif;
+
+ * {
      margin: 0;
      padding: 0;
+
  }
 
  /* heading-section */
 
- header{
-     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png'); 
+ header {
+     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
      width: 90%;
      height: 600px;
      max-width: 1320px;
@@ -19,30 +23,69 @@ font-family: 'Merriweather Sans', sans-serif;
      background-size: cover;
      background-repeat: no-repeat;
      border-radius: 16px;
+     /* margin-bottom: 100px; */
  }
 
- .banner-text{
-    color: #FFF;
-    text-align: center;
-    font-family: 'Merriweather Sans', sans-serif;
-    
-    
-    
- }
- .banner-text .text-1{
-    font-size: 32px;
-    font-weight: 400;
-    margin: 0;
-    padding-top: 175px; 
-    
+ .banner-text {
+     color: #FFF;
+     text-align: center;
+     font-family: 'Merriweather Sans', sans-serif;
+
  }
 
- .banner-text .text-2{
-    text-align: center;
-    font-family:'Merriweather Sans', sans-serif;
-    font-size: 55px;
-    font-weight: 850;  
-    margin: 0 316px;
-    padding-bottom: 175px;
-    
-}
+ .banner-text .text-1 {
+     font-size: 32px;
+     font-weight: 400;
+     margin: 0;
+     padding-top: 175px;
+ }
+
+ .banner-text .text-2 {
+     text-align: center;
+     font-family: 'Merriweather Sans', sans-serif;
+     font-size: 55px;
+     font-weight: 850;
+     margin: 0 316px;
+     padding-bottom: 175px;
+ }
+
+ /* main-section-start */
+
+ .container-a{
+     display: flex;
+     justify-content: center;
+ }
+
+ .text-offer {
+     text-align: center;
+     font-family: 'Inter',sans-serif;
+ }
+
+ .text-offer .line-a {
+     color: #F00;
+     text-align: center;  
+     font-size: 88px;
+     font-weight: 700;
+     margin-bottom: 30px;
+
+ }
+
+ .text-offer .line-b{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 5px;
+ }
+ .text-offer .line-c{
+    color: #070211;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 30px;
+ }
+
+ .container-a .new-year{
+    width: 802.9px;
+    height: 500px;
+ }
