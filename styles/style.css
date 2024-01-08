@@ -190,6 +190,11 @@
      background: #F00;
      gap: 10px;
      margin-top: 35px;
+     font-size: 20px;
+     font-weight: 700;
+     font-family: 'Inter',
+         sans-serif;
+    color: #FFF;
 
  }
 
@@ -228,125 +233,121 @@
 
  /* news-letter-section */
 
-.news-letter{
-    background: rgba(255, 0, 0, 0.05);
-    border-radius: 20px;
-    margin: 120px auto;
-    max-width:1320px;
-    height: 600px;
-}
+ .news-letter {
+     background: rgba(255, 0, 0, 0.05);
+     border-radius: 20px;
+     margin: 120px auto;
+     max-width: 1320px;
+     height: 600px;
+ }
 
-.container-news{
-    text-align: center;  
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    padding-top: 80px;
-}
+ .container-news {
+     text-align: center;
+     align-items: center;
+     display: flex;
+     justify-content: center;
+     padding-top: 80px;
+ }
 
-.text-logo-part h2{
-    color: #070211;
-    font-family: 'Merriweather Sans',
- sans-serif; 
-    font-size: 48px;   
-    font-weight: 900;
-  
-}
+ .text-logo-part h2 {
+     color: #070211;
+     font-family: 'Merriweather Sans',
+         sans-serif;
+     font-size: 48px;
+     font-weight: 900;
 
-.text-logo-part p{
-    color: rgba(7, 2, 17, 0.60);
-    text-align: center;
-    font-family: 'Inter',
-    sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    padding: 22px 212px 45px;
-}
+ }
 
-.text-logo-part input{
-    padding: 25px 50px;
-    border-radius: 20px;
-    border: none;
-    background: #FFF;
-    margin: 0;
-}
+ .text-logo-part p {
+     color: rgba(7, 2, 17, 0.60);
+     text-align: center;
+     font-family: 'Inter',
+         sans-serif;
+     font-size: 20px;
+     font-weight: 400;
+     padding: 22px 212px 45px;
+ }
 
-.btn-subs{
-    background: #F00;
-    padding: 25px 50px;
-    border-radius: 20px;
-    border: none;
-       
-}
+ .text-logo-part input {
+     padding: 25px 50px;
+     border-radius: 20px;
+     border: none;
+     background: #FFF;
+     margin: 0;
+ }
 
-footer{
-    background: #070211;
-    
-    height: 609px;
-    background-size: cover;
-}
+ .btn-subs {
+     background: #F00;
+     padding: 25px 50px;
+     border-radius: 20px;
+     border: none;
 
-.footer-container{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: space-between;
-    font-family: 'Inter', sans-serif;
-    padding-top: 120px;
+ }
 
-}
+ footer {
+     background: #070211;
+     height: 609px;
+     background-size: cover;
+ }
 
-.address{
-    color: #FFF;
-    font-size: 24px;
-    font-weight: 500;
-    padding-left: 140px;
-    padding-right: 700px;
-    
+ .footer-container {
+     display: flex;
+     align-items: center;
+     text-align: center;
+     justify-content: space-between;
+     font-family: 'Inter', sans-serif;
+     padding-top: 120px;
 
-}
+ }
 
-.call-png{
-    color: #FFF;
-    font-size: 24px;
-    font-weight: 500;
-    padding-right: 290px;
+ .address {
+     color: #FFF;
+     font-size: 24px;
+     font-weight: 500;
+     padding-left: 140px;
+     padding-right: 700px;
 
-}
 
-hr{
-    background-color:rgba(255, 255, 255, 0.067);
-    margin: 50px 140px 0;   
-    height: 1px;
-    border: none;
+ }
 
-}
+ .call-png {
+     color: #FFF;
+     font-size: 24px;
+     font-weight: 500;
+     padding-right: 290px;
 
-.footer-img-logo{
+ }
+
+ hr {
+     background-color: rgba(255, 255, 255, 0.067);
+     margin: 50px 140px 0;
+     height: 1px;
+     border: none;
+
+ }
+
+ .footer-img-logo {
      padding-top: 48px;
-      align-items: center;
-      text-align: center;
-      
-    
-}
-
-.right-reserve{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    align-items: center;
-    color: #FFF;
-    margin: 65px 140px 0;
-}
+     align-items: center;
+     text-align: center;
 
 
+ }
 
-/* font-collected */
-font-family: 'Inter',
+ .right-reserve {
+     display: flex;
+     justify-content: space-between;
+     text-align: center;
+     align-items: center;
+     color: #FFF;
+     margin: 65px 140px 0;
+ }
+
+
+
+ /* font-collected */
+ font-family: 'Inter',
  sans-serif;
 
  font-family: 'Merriweather Sans',
- sans-serif; 
-
-.right-reserve{
-    background: ;
+ sans-serif;
