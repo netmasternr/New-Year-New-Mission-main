@@ -51,41 +51,110 @@
 
  /* main-section-start */
 
- .container-a{
+ .container-a {
      display: flex;
      justify-content: center;
  }
 
  .text-offer {
      text-align: center;
-     font-family: 'Inter',sans-serif;
+     font-family: 'Inter', sans-serif;
  }
 
  .text-offer .line-a {
      color: #F00;
-     text-align: center;  
+     text-align: center;
      font-size: 88px;
      font-weight: 700;
      margin-bottom: 30px;
 
  }
 
- .text-offer .line-b{
-    color: #F00;
-    font-size: 24px;
-    font-weight: 500;
-    margin-bottom: 5px;
- }
- .text-offer .line-c{
-    color: #070211;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    margin-top: 0;
-    margin-bottom: 30px;
+ .text-offer .line-b {
+     color: #F00;
+     font-size: 24px;
+     font-weight: 500;
+     margin-bottom: 5px;
  }
 
- .container-a .new-year{
-    width: 802.9px;
-    height: 500px;
+ .text-offer .line-c {
+     color: #070211;
+     font-size: 48px;
+     font-style: normal;
+     font-weight: 700;
+     margin-top: 0;
+     margin-bottom: 30px;
+ }
+
+ .container-a .new-year {
+     width: 802.9px;
+     height: 500px;
+ }
+
+ .welcome{
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+    width: 90%;
+    height: 600px;
+    max-width: 1320px;
+    margin: 50px auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+ .container-party{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+ }
+ .container-party .welcome-title{
+    max-width: 642px;
+    color: #FFF;
+    font-family: 'Merriweather Sans',
+    sans-serif;
+    font-size: 64px;
+    font-weight: 680;
+    padding-top: 126px;
+    padding-left: 126px;
+    padding-bottom: 0px;
+    
+
+ }
+ .container-party .description{
+    color: rgba(255, 255, 255, 0.80);
+    max-width:697px;
+    font-family: 'Inter',
+    sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 126px;
+    padding-top: 0;
+    padding-bottom: 214px;
+    
+ }
+
+ .bnt-a{
+    color: #FFF;
+    margin-right: 200px;
+    margin-top: 42px;
+    margin-left: 58px;   
+    font-family: 'Inter',
+    sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 0px 30px;
+    border: none;
+    background-color: transparent;
+    text-transform: uppercase;
+ }
+
+ .img-party{
+    
+    max-width: 319px;
+    
+    margin: 68px 138px 150px 0px;
+    flex-direction: column;
+    
+
  }
