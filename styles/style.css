@@ -169,26 +169,66 @@
      background-repeat: no-repeat;
      border-radius: 16px;
  }
- .container-location .location-text{
-    text-align: center;
-    padding-top: 100px;
-    margin: 0;
-    padding-bottom: 0;
-    color: #070211;
-    font-family: 'Inter',
-    sans-serif;
-    font-weight: 650;
-    font-size: 32px;
-    
- }
- .r{
-    color: #F00;
+
+ .container-location .location-text {
+     text-align: center;
+     padding-top: 100px;
+     margin: 0;
+     padding-bottom: 0;
+     color: #070211;
+     font-family: 'Inter',
+         sans-serif;
+     font-weight: 650;
+     font-size: 32px;
+
  }
 
- .btn-b{
-    padding: 16px 32px;
-    border-radius: 8px;
-    border: 0;
-   background: #F00;
-   gap: 10px;
+ .r {
+     color: #F00;
+ }
+
+ .btn-b {
+     padding: 16px 32px;
+     border-radius: 8px;
+     border: 0;
+     background: #F00;
+     gap: 10px;
+     
+ }
+
+ .portpolio {
+     max-width: 90%;
+     height: 600px;
+     max-width: 1320px;
+     margin: 50px auto;
+ }
+
+ .portfolio-title {
+     color: #F00;
+     font-family: 'Inter',sans-serif;
+     font-size: 24px;
+     font-weight: 500;
+     
+ }
+
+ .awesome-portfolio{
+    color: #070211;
+    font-family: 'Merriweather Sans',
+    sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+
+ }
+
+ .portfolio-discription{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter',sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+
+ }
+
+ .gifts-container img{
+    border-radius: 20px;
+    
  }
