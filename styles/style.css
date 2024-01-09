@@ -155,7 +155,7 @@
 
  .container-location {
      background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-     width: 90%;
+     /* width: 90%; */
      height: 480px;
      max-width: 1320px;
      margin: 50px auto;
@@ -197,6 +197,84 @@
     color: #FFF;
 
  }
+
+/* bonus-section-start */
+
+.bonus-container{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1320px;
+    margin: 50px auto;
+}
+
+.bonus-container .bonus-text-a{
+    margin-top: 100px;
+}
+
+.bonus-container .bonus-text-a h3{
+    color: #F00;
+    font-family: 'Inter',
+    sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.bonus-container .bonus-text-a h2{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Merriweather Sans',
+    sans-serif;
+    margin-top: 16px;
+}
+
+.bonus-container .bonus-text-a p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter',
+    sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-right: 70px;
+
+}
+
+.bonus-container .bonus-text-b h2{
+    color: #F00;
+    font-family: 'Inter',
+    sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 100px;
+
+}
+.bonus-text-b{
+    margin-left: 167px;
+}
+
+
+.bonus-container .bonus-text-b p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter',
+    sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 16px;
+
+}
+
+.bonus-container .bonus-text-b img{
+    margin-top: 40px;
+}
+
+.box img{
+    padding: 10px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+}
+
+
+/* portfolio-section-start */
 
  .portfolio {
      height: auto;
