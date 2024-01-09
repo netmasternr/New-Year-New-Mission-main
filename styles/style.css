@@ -16,7 +16,7 @@
      margin: 50px auto;
      background-size: cover;
      background-repeat: no-repeat;
-     border-radius: 16px;
+     border-radius: 10px;
      /* margin-bottom: 100px; */
  }
 
@@ -198,13 +198,13 @@
 
  }
 
-/* bonus-section-start */
+/* bonus-section-start-1 */
 
 .bonus-container{
     display: flex;
     justify-content: space-around;
     max-width: 1320px;
-    margin: 50px auto;
+    margin: 100px auto;
 }
 
 .bonus-container .bonus-text-a{
@@ -272,6 +272,96 @@
     border-radius: 463px;
     border: 15px solid #F00;
 }
+
+/* bonus-section-start-2 */
+
+
+
+.bonus-section2{
+ align-items: center;
+ justify-content: center;
+ margin: 50px auto;
+ 
+
+}
+
+
+.bonus2-description{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+
+.bonus2-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.bonus-section2 .bonus2-description h3{
+    color: #070211;
+    font-family: 'Inter',
+    sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.bonus-section2 .bonus2-description h2{
+    color: #F00;
+    text-align: center;
+    font-family: 'Merriweather Sans',
+sans-serif;
+    font-size: 72px; 
+    font-weight: 900;
+    margin: 25px  
+}
+
+.bonus-section2 .bonus2-description span{
+    color: #070211;
+}
+
+.bonus-section2 .bonus2-description p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter',
+    sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 1000px;
+    margin-top: 25px;
+    margin-left: 400px;
+    margin-bottom: 35px;
+
+}
+
+
+.bonus-section2{
+    background-image:url('../resources/Rectangle\ 2.png') ;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    justify-content: end;
+    align-items: end;
+}
+
+.group-image-a{
+    margin-left: 266px ;
+    display: block;
+}
+
+.image-c{
+    margin-right: 475px;
+    display: block;
+    text-align: right;
+    justify-content: right;
+   
+
+}
+
 
 
 /* portfolio-section-start */
@@ -420,6 +510,20 @@
      color: #FFF;
      margin: 65px 140px 0;
  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
